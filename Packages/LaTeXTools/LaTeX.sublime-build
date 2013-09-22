@@ -71,12 +71,12 @@
 			// ADD $PATH EXPLICITLY AT THE END
 			
 			// *** BEGIN MikTeX 2009 ***
-			"cmd": ["texify", 
+/*			"cmd": ["texify", 
 					"-b", "-p",
 					"--tex-option=\"--synctex=1\""
 			],
 			
-			"path": "",
+			"path": "",*/
 			// *** END MikTeX 2009 ***
 
 			// TeXlive 2011 configuration
@@ -88,12 +88,12 @@
 			// ADD $PATH EXPLICITLY AT THE END
 
 			// *** BEGIN TeXLive 2011 ***
-			// "cmd": ["latexmk", "-cd",
-			// 	"-e", "\\$pdflatex = '%E %O -interaction=nonstopmode -synctex=1 %S'",
-			//	//"-silent",
-			// 	"-f", "-pdf"],
+			"cmd": ["latexmk", "-cd",
+				"-e", "\\$pdflatex = '%E %O -interaction=nonstopmode -synctex=1 %S'",
+				//"-silent",
+				"-f", "-pdf"],
 
-			// "path": "C:\\texlive\\2011\\bin\\win32;$PATH",
+			"path": "C:\\texlive\\2011\\bin\\win32;$PATH",
 			// *** END TeXLive 2011 ***
 			
 
